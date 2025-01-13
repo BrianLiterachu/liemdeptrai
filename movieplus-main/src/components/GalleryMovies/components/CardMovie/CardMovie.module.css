@@ -1,0 +1,16 @@
+.card_movie img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: img 0.5s ease-in-out forwards;
+  border-radius: 0.8rem;
+}
+
+@keyframes img {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

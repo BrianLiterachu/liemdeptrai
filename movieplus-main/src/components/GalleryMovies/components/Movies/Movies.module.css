@@ -1,0 +1,13 @@
+.movies {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: min(100%, 128rem);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3.2rem;
+  padding: 1.6rem;
+  transition: 0.5s;
+}

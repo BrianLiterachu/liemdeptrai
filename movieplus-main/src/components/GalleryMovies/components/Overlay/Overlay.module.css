@@ -1,0 +1,12 @@
+.overlay {
+  width: min(100%, 48rem);
+  border-radius: 50%;
+  filter: blur(5rem);
+  opacity: 0.4;
+  aspect-ratio: 1/1;
+  background: radial-gradient(var(--principal-color), transparent);
+  position: fixed;
+  z-index: -2;
+  top: 256px;
+  left: 256px;
+}

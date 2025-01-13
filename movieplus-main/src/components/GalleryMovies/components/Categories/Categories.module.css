@@ -1,0 +1,29 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  padding: 6.4rem 0;
+}
+
+.container {
+  width: min(100%, 128rem);
+  padding: 1.6rem;
+}
+
+.categories ul {
+  list-style-type: none;
+  display: flex;
+  gap: 4.4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categories ul li {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--gray-240);
+  cursor: pointer;
+}
+
+.categories ul li:hover {
+  color: var(--principal-color);
+}

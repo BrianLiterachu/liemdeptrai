@@ -1,0 +1,28 @@
+.results_container {
+  width: min(100%, 128rem);
+  margin: 0 auto;
+  padding-top: 12.8rem;
+}
+.results {
+  font-size: 2.2rem;
+  color: var(--gray-240);
+  padding-top: 8rem;
+  padding-bottom: 3.4rem;
+  padding-left: 1.6rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.movies {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: min(100%, 128rem);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3.2rem;
+  padding: 1.6rem;
+  transition: 0.5s;
+}
